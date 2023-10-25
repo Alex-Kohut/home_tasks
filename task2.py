@@ -1,0 +1,10 @@
+# ДЗ 2. Виведення числа в стовпчик
+num = int(input('Type num: '))
+num1 = (int(num / 1000))
+print(num1)
+num2 = (int((num-num1*1000)/100))
+print(num2)
+num3 = (int((num-num1*1000-num2*100)/10))
+print(num3)
+num4 = (num % 10)
+print(num4)
