@@ -1,14 +1,3 @@
-class Student:
-    def __init__(self, gender, age, first_name, last_name, student_id):
-        self.gender = gender
-        self.age = age
-        self.first_name = first_name
-        self.last_name = last_name
-        self.student_id = student_id
-
-    def __str__(self):
-        return f'{self.first_name} {self.last_name}, ID: {self.student_id}'
-
 class GroupIsFullError(Exception):
     def __init__(self, message="Group is full. Cannot add more than 10 students."):
         self.message = message
